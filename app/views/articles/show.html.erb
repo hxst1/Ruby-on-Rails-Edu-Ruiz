@@ -5,4 +5,7 @@
 <main class="main">
   <h2><%= @article.title %></h2>
   <p><%= @article.body %></p>
+  <ul>
+    <li><%= link_to "Edit", edit_article_path(@article) %></li>
+  </ul>
 </main>
