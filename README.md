@@ -40,6 +40,8 @@ $ rails server
 
 ### /item detail
 
+![](https://media.discordapp.net/attachments/935899626706444368/1012103826981003275/unknown.png?width=810&height=441)
+
 ### /form
 
 ![](https://media.discordapp.net/attachments/624605738551083015/1011939059712671855/unknown.png?width=810&height=441)
