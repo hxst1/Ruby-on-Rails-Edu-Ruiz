@@ -29,14 +29,18 @@ $ rails server
 ```
 
 ## Web Style
-- /home
+### /home
+
 ![](https://media.discordapp.net/attachments/624605738551083015/1011939058810888284/unknown.png?width=810&height=441)
 
-- /articles
+### /articles
+
 ![](https://media.discordapp.net/attachments/624605738551083015/1011939059133861958/unknown.png?width=810&height=441)
 
-- /item detail
+### /item detail
+
 ![](https://media.discordapp.net/attachments/935899626706444368/1011937172544299018/Captura_de_Pantalla_2022-08-24_a_las_11.56.58.png?width=810&height=460)
 
-- /form
+### /form
+
 ![](https://media.discordapp.net/attachments/624605738551083015/1011939059712671855/unknown.png?width=810&height=441)
