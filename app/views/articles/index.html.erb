@@ -3,12 +3,15 @@
   <a class="new" href="/articles/new">New Article</a>
   <a class="links" href="/">Home</a>
 </header>
-<main class="main">
-  <h1 class="title-primary">Articles</h1>
-  <ul>
+<main class="main-articles">
+  <h1 class="title-primary-articles">Articles</h1>
+  <ul class="container-articles-page">
   <% @articles.each do |article| %>
-    <li>
-      <%= link_to article.title, article %>
+    <li class="article-container">
+      <a href="/articles/<%= article.id %>">
+        <img class="images-articles" src="<%= article.image %>" alt="<%= article.title %>">
+        <h2 class="article-title"><%= article.title %></h2>
+      </a>
     </li>
   <% end %>
 </ul>

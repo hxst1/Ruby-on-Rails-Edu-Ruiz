@@ -2,13 +2,21 @@
   <a class="links" href="/articles">Articles</a>
   <a class="links" href="/home">Home</a>
 </header>
-<main class="main">
-  <h2><%= @article.title %></h2>
-  <p><%= @article.body %></p>
-  <a href="<%= @article.url %>">
-  <img src="<%= @article.image %>" alt="<%= @article.title %>">
-  <ul>
-    <li><%= link_to "Edit", edit_article_path(@article) %></li>
-    <li><%= link_to "Destroy", article_path(@article), data: { turbo_method: :delete } %></li>
-  </ul>
+<main class="main-show">
+  <h1 class="title-primary-articles"><%= @article.title %></h1>
+  <section class="container-primary-show">
+    <div class="container-secondary-show">
+      <img class="images-show" src="<%= @article.image %>" alt="<%= @article.title %>">
+    </div>
+    <div class="container-terciary-show">
+      <section class="section-show-text">
+        <a target="_blank" class="url-show" href="<%= @article.url %>">GitHub: <%= @article.title %></a>
+        <p class="body-show"><%= @article.body %></p>
+      </section>     
+        <ul class="section-show-buttons">
+          <li class="li-show"><%= link_to "Edit", edit_article_path(@article), class: 'button_edit'%></li>
+          <li class="li-show"><%= link_to "Destroy", article_path(@article), data: { turbo_method: :delete }, class: 'button_delete' %></li>
+        </ul>
+    </div>
+  </section>
 </main>
