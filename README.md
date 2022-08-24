@@ -1,6 +1,6 @@
 # Ruby on Rails / CRUD
 
-<image src="https://readme-typing-svg.herokuapp.com?font=Iosevka&size=16&color=BC83E3&center=true&width=410&height=45&lines=by+Edu+Ruiz.">
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F71164&width=435&lines=by+Edu+RUiz)](https://git.io/typing-svg)
  
 ## Installation
 
