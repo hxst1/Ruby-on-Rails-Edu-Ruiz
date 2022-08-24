@@ -40,7 +40,8 @@ $ rails server
 
 ### /item detail
 
-![](https://media.discordapp.net/attachments/935899626706444368/1011937172544299018/Captura_de_Pantalla_2022-08-24_a_las_11.56.58.png?width=810&height=460)
+![](https://cdn.discordapp.com/attachments/818320452732583937/1012102652303245382/Captura_de_Pantalla_2022-08-24_a_las_22.54.30.png)
+
 
 ### /form
 
