@@ -28,6 +28,7 @@ $ rails db:migrate RAILS_ENV=development
 $ rails server
 ```
 
+
 ## Web Style
 ### /home
 
