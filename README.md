@@ -28,8 +28,9 @@ $ rails db:migrate RAILS_ENV=development
 $ rails server
 ```
 
+<br>
 
-## tests
+## Tests
 
 #### 1st Step
 - Migrate database
@@ -42,6 +43,7 @@ $ rails db:migrate RAILS_ENV=test
 $ rails test
 ```
 
+<br>
 
 ## Web Style
 ### /home
