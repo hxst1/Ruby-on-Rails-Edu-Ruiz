@@ -29,6 +29,20 @@ $ rails server
 ```
 
 
+## tests
+
+#### 1st Step
+- Migrate database
+```bash
+$ rails db:migrate RAILS_ENV=test
+```
+#### 2nd Step
+- Run test
+```bash
+$ rails test
+```
+
+
 ## Web Style
 ### /home
 
