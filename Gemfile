@@ -28,6 +28,9 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+# ffi for windows [https://rubygems.org/gems/ffi/versions/1.9.10]
+gem 'ffi', '~> 1.9', '>= 1.9.10'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
